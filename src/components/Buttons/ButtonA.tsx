@@ -1,7 +1,9 @@
-import React from "react";
+import React, { FunctionComponent, PropsWithChildren } from "react";
 
-export interface ButtonAProps {}
+export interface ButtonAProps extends PropsWithChildren {}
 
-const ButtonA = () => <button className="buttonA"></button>;
+const ButtonA: FunctionComponent<ButtonAProps> = ({ children }) => (
+  <button className="buttonA">{children}</button>
+);
 
 export default ButtonA;
