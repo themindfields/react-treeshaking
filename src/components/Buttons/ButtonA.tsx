@@ -1,9 +1,13 @@
 import React, { FunctionComponent, PropsWithChildren } from "react";
+import { isEmpty } from "lodash";
 
 export interface ButtonAProps extends PropsWithChildren {}
 
 const ButtonA: FunctionComponent<ButtonAProps> = ({ children }) => (
-  <button className="buttonA">{children}</button>
+  <button className="buttonA">
+    {children}
+    {isEmpty(children)}
+  </button>
 );
 
 export default ButtonA;
