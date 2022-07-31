@@ -6,7 +6,7 @@ export interface ButtonAProps extends PropsWithChildren {}
 const ButtonA: FunctionComponent<ButtonAProps> = ({ children }) => (
   <button className="buttonA">
     {children}
-    {isEmpty(children)}
+    {isEmpty(children) ? "emptyChildren" : "notEmptyChildren"}
   </button>
 );
 
