@@ -1,5 +1,5 @@
 import React, { FunctionComponent, PropsWithChildren } from "react";
-import { isEmpty } from "lodash";
+import { isEmpty } from "lodash-es";
 
 export interface ButtonAProps extends PropsWithChildren {}
 
