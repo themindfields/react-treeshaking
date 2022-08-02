@@ -21,11 +21,7 @@
     "noImplicitAny": true,
     "removeComments": true,
     "sourceMap": true,
-    "target": "es5",
-    "plugins": [
-      { "transform": "typescript-transform-paths"}, 
-      { "transform": "typescript-transform-paths", "afterDeclarations": true }
-    ],
+    "target": "es5"
   },
   "include": ["src"]
 }
