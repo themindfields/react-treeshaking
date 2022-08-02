@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepublishOnly": "tsc -d --outDir .",
+    "prepare": "tsc -d --outDir .",
     "storybook": "STORYBOOK_LOCAL_ASSETS=true start-storybook -s ./static -p 9000",
     "build-storybook": "build-storybook -c .storybook -o .out"
   },

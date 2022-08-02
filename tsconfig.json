@@ -3,10 +3,10 @@
     "esModuleInterop": true,
     "outDir": "lib",
     "rootDir": ".",
-    "baseUrl": "./",
+    "baseUrl": ".",
     "allowJs": true,
     "paths": {
-      "@components/*": ["src/components/*"],
+      "@components": ["src/components"],
     },
     "jsx": "react",
     "lib": ["es2018", "dom"],
