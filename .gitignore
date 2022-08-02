@@ -1,6 +1,13 @@
+.idea
+.out
 node_modules
-.cache
+lib
+components/**
+hooks/**
+polyfills/**
+styles/**
+utils/**
+/*.js
+/*.js.map
+/*.d.ts
 .vscode
-dist
-tsconfig.json
-src
