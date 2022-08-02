@@ -1,11 +1,18 @@
 {
   "compilerOptions": {
     "esModuleInterop": true,
-    "outDir": "dist",
-    "baseUrl": "./",
+    "outDir": "lib",
+    "baseUrl": "src",
     "allowJs": true,
     "paths": {
-      "@components": ["src/components"],
+      "components": ["./components"],
+      "components/*": ["./components/*"],
+      "hooks": ["./hooks"],
+      "hooks/*": ["./hooks/*"],
+      "styles": ["./styles"],
+      "styles/*": ["./styles/*"],
+      "utils": ["./utils"],
+      "utils/*": ["./utils/*"],
     },
     "jsx": "react",
     "lib": ["es2018", "dom"],
@@ -20,5 +27,5 @@
       { "transform": "typescript-transform-paths", "afterDeclarations": true }
     ],
   },
-  "include": [".", "src"],
+  "include": ["src"]
 }
