@@ -1,4 +1,8 @@
+.out
+.prettierrc
 .storybook
-stories
-tsconfig.json
 src
+static
+stories
+bitbucket-pipelines.yml
+tsconfig.json
