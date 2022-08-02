@@ -1,25 +1,25 @@
-import React from 'react';
+import React from "react";
 
-import { ButtonA } from 'components';
+import { ButtonA } from "components";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: 'Example/ButtonA',
+  title: "Example/ButtonA",
   component: ButtonA,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
-    backgroundColor: { control: 'color' },
+    backgroundColor: { control: "color" },
   },
 };
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template = (args) => <ButtonA {...args} />;
+const Template = (args: any) => <ButtonA {...args} />;
 
 export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Primary.args = {
   primary: true,
-  label: 'ButtonA',
+  label: "ButtonA",
 };
 
 // export const Secondary = Template.bind({});

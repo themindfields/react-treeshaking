@@ -1,13 +1,4 @@
-.idea
+.vscode
 .out
 node_modules
-lib
-components/**
-hooks/**
-polyfills/**
-styles/**
-utils/**
-/*.js
-/*.js.map
-/*.d.ts
-.vscode
+dist
