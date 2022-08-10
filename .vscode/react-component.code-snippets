@@ -1,0 +1,7 @@
+{
+  "For Loop": {
+    "prefix": ["react-component"],
+    "body": "export interface ${name}Props {}\n\nconst $name = () => {};\n\nexport default $name;",
+    "description": "Default React component"
+  }
+}
