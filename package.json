@@ -30,16 +30,13 @@
     "@storybook/manager-webpack4": "^6.5.9",
     "@storybook/react": "^6.5.9",
     "@storybook/testing-library": "0.0.13",
-    "@types/lodash-es": "^4.17.6",
     "babel-loader": "^8.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tsconfig-paths-webpack-plugin": "^4.0.0"
   },
-  "dependencies": {
-    "lodash-es": "^4.17.21"
-  },
   "peerDependencies": {
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
