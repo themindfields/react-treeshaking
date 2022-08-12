@@ -2,7 +2,7 @@
   "name": "react-treeshaking",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "prepare": "tsc -d --outDir ./dist",
     "storybook": "STORYBOOK_LOCAL_ASSETS=true start-storybook -s ./static -p 9000",
