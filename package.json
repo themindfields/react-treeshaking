@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "prepare": "tsc -d --outDir ./dist",
     "storybook": "STORYBOOK_LOCAL_ASSETS=true start-storybook -s ./static -p 9000",
